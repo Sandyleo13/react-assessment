@@ -23,7 +23,7 @@ State management is handled using Redux Toolkit.
 
 Click below to view the full demo video:
 
-[ Watch Demo Video](screenshots/demo.mp4)
+<video src="screenshots/demo.mp4" controls width="100%"></video>
 
 
 > Replace VIDEO_ID with your actual YouTube video ID.
