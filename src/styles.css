@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input, button {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  background: #1976d2;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 720px) {
+  table thead {
+    display: none;
+  }
+  table, tbody, tr, td {
+    display: block;
+    width: 100%;
+  }
+  tr {
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 10px;
+  }
+  td {
+    padding: 6px 0;
+  }
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    width: 110px;
+    display: inline-block;
+  }
+}
