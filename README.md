@@ -1,75 +1,113 @@
-# React + TypeScript + Vite
+# React Assessment – Dynamic Table with Redux, Validation & Excel Export
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React.js assessment project implementing a feature-rich data table with:
+Pagination, Sorting, Global Filter, Excel Export (filtered rows only), and a validated Form using react-hook-form.  
+State management is handled using Redux Toolkit.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## React Compiler
+### 🖥️ Desktop View
+![Desktop View](/mnt/data/11562ac0-775f-4826-b917-8aba6db5587e.png)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### 🔍 Filtered Search View
+![Filtered View](/mnt/data/3bd5b599-baef-4c55-b3e4-626df086b7fa.png)
 
-Note: This will impact Vite dev & build performances.
+### 📱 Mobile View
+![Mobile View](/mnt/data/1a022cc3-8696-4a52-aeee-faa7c41b9cdb.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎥 Demonstration Video
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+[![Watch Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+> Replace VIDEO_ID with your actual YouTube video ID.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🚀 Features Implemented
+
+### 📌 Table Functionalities
+- Pagination (10 rows per page)
+- Global search filter
+- Column sorting (ASC/DESC)
+- Mobile responsive
+- Export filtered rows to Excel (.xlsx)
+- Live updates when filtering
+
+### 📌 Form (react-hook-form)
+- First name, Last name, Email, Phone, City fields
+- Required validation + error messages
+- On submit → new row added to Redux
+
+### 📌 Redux Toolkit
+- Global state management
+- Slice for managing rows
+- Actions: addRow, setRows
+- Fully typed with TypeScript
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+ ├─ components/
+ │   ├─ AddRowForm.tsx
+ │   ├─ DataTable.tsx
+ │
+ ├─ store/
+ │   ├─ tableSlice.ts
+ │   ├─ index.ts
+ │
+ ├─ utils/
+ │   ├─ exportExcel.ts
+ │
+ ├─ App.tsx
+ └─ main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Installation & Setup
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 1️⃣ Clone repository:
+git clone https://github.com/Sandyleo13/react-assessment.git
+cd react-assessment
+
+### 2️⃣ Install dependencies:
+npm install
+
+### 3️⃣ Run locally:
+npm run dev
+
+Visit:
+http://localhost:5173
+
+---
+
+## 📦 Production Build
+npm run build
+
+---
+
+## 🧪 Usage Guide
+- Use form to add entries  
+- Filter rows using global search  
+- Sort columns  
+- Export filtered rows to Excel  
+- Pagination (10 per page)
+
+---
+
+## 👨‍💻 Author
+**Sandipan Das**  
+GitHub: https://github.com/Sandyleo13  
+Email: sandipandas0816@gmail.com
+
+---
+
+## 📄 License
+Free for learning & portfolio use.
