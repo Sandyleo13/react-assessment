@@ -9,13 +9,13 @@ State management is handled using Redux Toolkit.
 ## 📸 Screenshots
 
 ### 🖥️ Desktop View
-![Desktop View](/mnt/data/11562ac0-775f-4826-b917-8aba6db5587e.png)
+![Desktop View](screenshots/desktop.png)
 
 ### 🔍 Filtered Search View
-![Filtered View](/mnt/data/3bd5b599-baef-4c55-b3e4-626df086b7fa.png)
+![Filtered View](screenshots/filtered.png)
 
 ### 📱 Mobile View
-![Mobile View](/mnt/data/1a022cc3-8696-4a52-aeee-faa7c41b9cdb.png)
+![Mobile View](screenshots/mobile.png)
 
 ---
 
