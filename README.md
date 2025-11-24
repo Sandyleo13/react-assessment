@@ -23,6 +23,7 @@ State management is handled using Redux Toolkit.
 
 <video src="screenshots/demo.mp4" controls width="100%"></video>
 
+
 ---
 
 ##  Features Implemented
