@@ -19,14 +19,9 @@ State management is handled using Redux Toolkit.
 
 ---
 
-##  Demonstration Video
-
-Click below to view the full demo video:
+## 🎥 Demonstration Video
 
 <video src="screenshots/demo.mp4" controls width="100%"></video>
-
-
-> Replace VIDEO_ID with your actual YouTube video ID.
 
 ---
 
