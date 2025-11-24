@@ -6,30 +6,33 @@ State management is handled using Redux Toolkit.
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🖥️ Desktop View
+###  Desktop View
 ![Desktop View](screenshots/desktop.png)
 
-### 🔍 Filtered Search View
+###  Filtered Search View
 ![Filtered View](screenshots/filtered.png)
 
-### 📱 Mobile View
+###  Mobile View
 ![Mobile View](screenshots/mobile.png)
 
 ---
 
-## 🎥 Demonstration Video
+##  Demonstration Video
 
-[![Watch Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+Click below to view the full demo video:
+
+[ Watch Demo Video](screenshots/demo.mp4)
+
 
 > Replace VIDEO_ID with your actual YouTube video ID.
 
 ---
 
-## 🚀 Features Implemented
+##  Features Implemented
 
-### 📌 Table Functionalities
+###  Table Functionalities
 - Pagination (10 rows per page)
 - Global search filter
 - Column sorting (ASC/DESC)
@@ -37,12 +40,12 @@ State management is handled using Redux Toolkit.
 - Export filtered rows to Excel (.xlsx)
 - Live updates when filtering
 
-### 📌 Form (react-hook-form)
+###  Form (react-hook-form)
 - First name, Last name, Email, Phone, City fields
 - Required validation + error messages
 - On submit → new row added to Redux
 
-### 📌 Redux Toolkit
+###  Redux Toolkit
 - Global state management
 - Slice for managing rows
 - Actions: addRow, setRows
@@ -50,7 +53,7 @@ State management is handled using Redux Toolkit.
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 src/
@@ -71,16 +74,16 @@ src/
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone repository:
+###  Clone repository:
 git clone https://github.com/Sandyleo13/react-assessment.git
 cd react-assessment
 
-### 2️⃣ Install dependencies:
+###  Install dependencies:
 npm install
 
-### 3️⃣ Run locally:
+###  Run locally:
 npm run dev
 
 Visit:
@@ -88,12 +91,12 @@ http://localhost:5173
 
 ---
 
-## 📦 Production Build
+## Production Build
 npm run build
 
 ---
 
-## 🧪 Usage Guide
+## Usage Guide
 - Use form to add entries  
 - Filter rows using global search  
 - Sort columns  
@@ -102,12 +105,9 @@ npm run build
 
 ---
 
-## 👨‍💻 Author
+##  Author
 **Sandipan Das**  
 GitHub: https://github.com/Sandyleo13  
 Email: sandipandas0816@gmail.com
 
 ---
-
-## 📄 License
-Free for learning & portfolio use.
