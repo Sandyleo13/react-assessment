@@ -19,9 +19,11 @@ State management is handled using Redux Toolkit.
 
 ---
 
-## 🎥 Demonstration Video
+##  Demonstration Video
 
-<video src="screenshots/demo.mp4" controls width="100%"></video>
+Click below to download and view the full demo video:
+
+ [**Download Demo Video (MP4)**](screenshots/demo.mp4)
 
 
 ---
